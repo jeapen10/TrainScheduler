@@ -1,6 +1,5 @@
 $(document).ready(function () {
 
-
     // Initialize Firebase 
     var config = {
         apiKey: "AIzaSyBAD-pKg5Pc3qdvpEFnVvSqi6QrrjXhL8k",
@@ -44,6 +43,7 @@ $(document).ready(function () {
             }
         },
 
+        // Create an event for clicking the submit button to add a train
         $("#addTrainBtn").on("click", function (event) {
 
             // Prevent the page from refreshing
