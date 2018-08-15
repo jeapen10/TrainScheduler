@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
     <!-- Firebase Reference -->
-    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>    
+    <!-- Moment Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.12.0/moment.min.js"></script>
 
     <title>Train Scheduler</title>
 </head>
@@ -28,7 +30,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="col-lg-12">
 
                     <!-- Current Train Schedule -->
                     <div class="panel panel-primary">
@@ -80,7 +82,7 @@
                                         <label for="frequency" id="rateTitle">Frequency (min)</label>
                                         <input type="number" class="form-control" name="frequency" id="frequency" aria-describedby="emailHelpId" placeholder="">
                                         <br>
-                                        <button type="button" name="submit" id="addTrainBtn" class="btn btn-primary btn-lg">Submit</button>
+                                        <button type="submit" name="submit" id="addTrainBtn" class="btn btn-primary btn-lg">Submit</button>
                                     </div>
                                 </div>
                             </div>
